@@ -15,7 +15,7 @@ try {
 }
 module.exports = function changeTapeOutputStream(appNameOrOptions) {
     var options = typeof appNameOrOptions === 'string' ?
-        {app: appNameOrOptions, name: 'test-result'}) :
+        {app: appNameOrOptions, name: 'test-result'} :
         appNameOrOptions;
     var log = require('bunyan-hub-logger')(options);
     var ts = tape.createStream({objectMode: true});
