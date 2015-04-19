@@ -1,6 +1,6 @@
 {
   "name": "tape-bunyan-pub-stream",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Send tape test result to bunyan-hub.",
   "main": "index.js",
   "scripts": {
