@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/undoZen/tape-bunyan-pub-stream",
   "dependencies": {
+    "bunyan-hub-logger": "^1.1.2",
     "tape": ">3"
   },
   "peerDependencies": {
