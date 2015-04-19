@@ -1,0 +1,32 @@
+{
+  "name": "tape-bunyan-pub-stream",
+  "version": "0.0.0",
+  "description": "Send tape test result to bunyan-hub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undoZen/tape-bunyan-pub-stream.git"
+  },
+  "keywords": [
+    "bunyan",
+    "bunyan-hub",
+    "bunyan-pub-stream",
+    "tape",
+    "test"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/tape-bunyan-pub-stream/issues"
+  },
+  "homepage": "https://github.com/undoZen/tape-bunyan-pub-stream",
+  "dependencies": {
+    "tape": ">3"
+  },
+  "peerDependencies": {
+    "tape": ">3"
+  }
+}
